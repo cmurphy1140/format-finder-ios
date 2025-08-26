@@ -1,0 +1,177 @@
+{
+  "formats": [
+    {
+      "id": "scramble",
+      "name": "Scramble",
+      "category": "tournament",
+      "playerCount": "2-4 players",
+      "difficulty": "easy",
+      "shortDescription": "All players hit from the best shot location",
+      "howToPlay": [
+        "Everyone tees off on each hole",
+        "The team selects the best drive",
+        "All players hit their next shot from that spot",
+        "Continue selecting the best shot until the ball is holed",
+        "Record one team score for each hole"
+      ],
+      "scoringExample": "Hole 1 (Par 4): Team uses Sarah's drive from the fairway, then Mike's approach to the green, then Sarah's chip close to the pin, and Alex makes the putt. Team score: 4",
+      "diagram": "scramble_diagram"
+    },
+    {
+      "id": "best-ball",
+      "name": "Best Ball",
+      "category": "tournament",
+      "playerCount": "2-4 players",
+      "difficulty": "easy",
+      "shortDescription": "Each player plays their own ball, count the best score",
+      "howToPlay": [
+        "Everyone plays their own ball throughout the hole",
+        "Each player records their individual score",
+        "The lowest score among team members becomes the team score",
+        "If multiple players tie for best, use that score",
+        "Continue for all 18 holes"
+      ],
+      "scoringExample": "Hole 1 (Par 4): Player A scores 5, Player B scores 4, Player C scores 6, Player D scores 4. Team score: 4 (best ball)",
+      "diagram": "best_ball_diagram"
+    },
+    {
+      "id": "alternate-shot",
+      "name": "Alternate Shot",
+      "category": "tournament",
+      "playerCount": "2 players",
+      "difficulty": "medium",
+      "shortDescription": "Partners take turns hitting the same ball",
+      "howToPlay": [
+        "Partners decide who tees off on odd holes and who on even holes",
+        "After the tee shot, partners alternate hitting the same ball",
+        "Continue alternating until the ball is holed",
+        "Record one score for the team",
+        "Strategy: Choose tee shot order based on hole layout"
+      ],
+      "scoringExample": "Hole 1 (Par 4): Player A tees off, Player B hits second shot, Player A hits third, Player B holes out. Team score: 4",
+      "diagram": "alternate_shot_diagram"
+    },
+    {
+      "id": "stableford",
+      "name": "Stableford",
+      "category": "tournament",
+      "playerCount": "1-4 players",
+      "difficulty": "medium",
+      "shortDescription": "Score points instead of counting strokes",
+      "howToPlay": [
+        "Eagle or better: 4 points",
+        "Birdie: 3 points",
+        "Par: 2 points",
+        "Bogey: 1 point",
+        "Double bogey or worse: 0 points",
+        "Player with most points wins"
+      ],
+      "scoringExample": "Hole 1 (Par 4): Player scores a birdie (3) = 3 points. Hole 2 (Par 3): Player scores a par = 2 points. Total: 5 points",
+      "diagram": "stableford_diagram"
+    },
+    {
+      "id": "match-play",
+      "name": "Match Play",
+      "category": "tournament",
+      "playerCount": "2 players or 2 teams",
+      "difficulty": "easy",
+      "shortDescription": "Win individual holes rather than counting total strokes",
+      "howToPlay": [
+        "Players compete to win each hole",
+        "Lowest score on a hole wins that hole",
+        "Track holes won, lost, or tied (halved)",
+        "Match ends when one player is up by more holes than remain",
+        "Common format: Player A is '3 up with 2 to play' wins"
+      ],
+      "scoringExample": "After 9 holes: Player A won 5 holes, Player B won 3 holes, 1 hole was halved. Player A is '2 up' at the turn",
+      "diagram": "match_play_diagram"
+    },
+    {
+      "id": "skins",
+      "name": "Skins",
+      "category": "betting",
+      "playerCount": "2-4 players",
+      "difficulty": "easy",
+      "shortDescription": "Win a hole outright to claim the skin, ties carry over",
+      "howToPlay": [
+        "Each hole is worth a 'skin' (predetermined value)",
+        "Lowest score on a hole wins the skin",
+        "If players tie, the skin carries to the next hole",
+        "Carried skins accumulate until someone wins a hole outright",
+        "Player with most skins/money at the end wins"
+      ],
+      "scoringExample": "Hole 1: Tie (skin carries). Hole 2: Tie (2 skins carry). Hole 3: Player A wins with birdie, claims 3 skins",
+      "diagram": "skins_diagram"
+    },
+    {
+      "id": "nassau",
+      "name": "Nassau",
+      "category": "betting",
+      "playerCount": "2-4 players",
+      "difficulty": "medium",
+      "shortDescription": "Three separate bets: front 9, back 9, and total 18",
+      "howToPlay": [
+        "Three separate matches in one round",
+        "Front 9 (holes 1-9) is one bet",
+        "Back 9 (holes 10-18) is another bet",
+        "Overall 18 holes is the third bet",
+        "Each bet is typically for the same amount",
+        "Can be played as match play or stroke play"
+      ],
+      "scoringExample": "Front 9: Player A wins 2&1. Back 9: Player B wins 1 up. Overall: Tied. Player A wins 1 unit, Player B wins 1 unit",
+      "diagram": "nassau_diagram"
+    },
+    {
+      "id": "wolf",
+      "name": "Wolf",
+      "category": "betting",
+      "playerCount": "4 players",
+      "difficulty": "complex",
+      "shortDescription": "Rotating captain chooses to play alone or pick a partner",
+      "howToPlay": [
+        "Players rotate being the 'Wolf' each hole",
+        "Wolf tees off last and watches other players' drives",
+        "After each drive, Wolf can choose that player as partner",
+        "Or Wolf can play alone (Lone Wolf) for double points",
+        "If Wolf doesn't choose by their turn, they're Lone Wolf",
+        "Best ball scoring for teams, Wolf vs other 3 if alone"
+      ],
+      "scoringExample": "Hole 1: Wolf picks Player B after good drive. Wolf/B score 4, Players C/D score 5. Wolf team wins 1 point each",
+      "diagram": "wolf_diagram"
+    },
+    {
+      "id": "shamble",
+      "name": "Four-Man Shamble",
+      "category": "tournament",
+      "playerCount": "4 players",
+      "difficulty": "easy",
+      "shortDescription": "Scramble off the tee, then play your own ball in",
+      "howToPlay": [
+        "All players tee off",
+        "Select the best drive",
+        "Everyone plays their own ball from the selected drive spot",
+        "Each player completes the hole with their own ball",
+        "Record the best score (or best two scores) for the team"
+      ],
+      "scoringExample": "Hole 1 (Par 4): Team uses Mike's drive. From there: Player A scores 4, B scores 5, C scores 4, D scores 6. Team score: 4",
+      "diagram": "shamble_diagram"
+    },
+    {
+      "id": "chapman",
+      "name": "Chapman",
+      "category": "tournament",
+      "playerCount": "2 players",
+      "difficulty": "complex",
+      "shortDescription": "Both players drive, switch balls, select one to alternate",
+      "howToPlay": [
+        "Both partners tee off",
+        "Partners switch balls for the second shot",
+        "After both hit second shots, select the better ball",
+        "Play alternate shot from the selected ball until holed",
+        "Requires strategy on ball selection"
+      ],
+      "scoringExample": "Hole 1: Both tee off. A plays B's drive to fairway, B plays A's drive to rough. Team selects A's second shot (B's original ball), then alternate to finish",
+      "diagram": "chapman_diagram"
+    }
+  ]
+}

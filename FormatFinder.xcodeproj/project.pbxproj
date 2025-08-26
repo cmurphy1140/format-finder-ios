@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A1A1A1A12B4E5F6700000001 /* FormatFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02B4E5F6700000001 /* FormatFinderApp.swift */; };
-		A1A1A1A22B4E5F6700000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02B4E5F6700000002 /* ContentView.swift */; };
 		A1A1A1A32B4E5F6700000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02B4E5F6700000003 /* Assets.xcassets */; };
 		A1A1A1A42B4E5F6700000004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02B4E5F6700000004 /* Preview Assets.xcassets */; };
 		A1A1A1A52B4E5F6700000005 /* FormatFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02B4E5F6700000005 /* FormatFinderTests.swift */; };
@@ -35,7 +34,6 @@
 /* Begin PBXFileReference section */
 		A1A1A1972B4E5F6700000001 /* FormatFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormatFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A1A1A02B4E5F6700000001 /* FormatFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatFinderApp.swift; sourceTree = "<group>"; };
-		A1A1A1A02B4E5F6700000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1A1A1A02B4E5F6700000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A1A1A02B4E5F6700000004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1A1A1A02B4E5F6700000005 /* FormatFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatFinderTests.swift; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				A1A1A1A02B4E5F6700000001 /* FormatFinderApp.swift */,
-				A1A1A1A02B4E5F6700000002 /* ContentView.swift */,
 				A1A1A1A02B4E5F6700000003 /* Assets.xcassets */,
 				A1A1A1A52B4E5F6700000001 /* Preview Content */,
 			);
@@ -254,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1A1A1A22B4E5F6700000002 /* ContentView.swift in Sources */,
 				A1A1A1A12B4E5F6700000001 /* FormatFinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
