@@ -170,8 +170,8 @@ final class ModelTests: XCTestCase {
     // MARK: - Tab Tests
     
     func testTabEnumeration() {
-        let browseTab = Tab.browse
-        let savedTab = Tab.saved
+        let browseTab = AppTab.browse
+        let savedTab = AppTab.saved
         
         XCTAssertEqual(browseTab.title, "Browse")
         XCTAssertEqual(savedTab.title, "Saved")

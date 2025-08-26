@@ -77,7 +77,7 @@ enum Difficulty: String {
     }
 }
 
-enum Tab {
+enum AppTab {
     case browse
     case saved
     

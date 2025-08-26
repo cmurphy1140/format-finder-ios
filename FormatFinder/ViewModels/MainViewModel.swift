@@ -1,7 +1,7 @@
 import SwiftUI
 
 class MainViewModel: ObservableObject {
-    @Published var selectedTab: Tab = .browse
+    @Published var selectedTab: AppTab = .browse
     @Published var selectedFormat: GolfFormat?
     
     let formatsViewModel = FormatsViewModel()
